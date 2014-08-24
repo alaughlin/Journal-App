@@ -11,7 +11,7 @@ $(document).ready(function(e) {
   <nav class='group'>
     <h1 class='header-logo'>Journal App</h1>
     <ul class='header-list group'>
-      <li><a href='#/posts/new'>New Post</a></li>
+      <li><a href='#/posts/new' class="new-post-button">New Post</a></li>
     </ul>
   </nav>
 </header>
@@ -60,7 +60,6 @@ $(document).ready(function(e) {
     border-bottom: 5px solid black;
     color: white;
     background: #5882FA;
-    padding: 5px;
     width: 100%;
     display: block;
   }
@@ -103,12 +102,6 @@ $(document).ready(function(e) {
     display: block;
   }
 
-  nav > ul > li > a {
-    padding: 10px;
-    display: block;
-    color: white;
-  }
-
   nav > ul > li > a:hover {
     background: #588FFF;
   }
@@ -140,7 +133,15 @@ $(document).ready(function(e) {
   }
 
   .header-logo {
+    margin-top: 2px;
     margin-left: 5px;
+  }
+
+  .new-post-button {
+    padding: 15px;
+    display: block;
+    color: white;
+    height: 20px;
   }
 
   .footer-copy {
