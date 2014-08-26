@@ -48,3 +48,5 @@ group :development do
   gem 'rename'
 end
 
+gem 'unicorn'
+
